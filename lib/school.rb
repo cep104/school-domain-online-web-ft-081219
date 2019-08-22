@@ -7,12 +7,15 @@ class School
 end
 
 def add_student(student,grade)
-  if @roster[grade]
-    @roster[grade]<< student
+  if @roster[grade] #if roster has a key of grade
+    @roster[grade]<< student #add students name
   else
-    @roster[grade]=[]
-     @roster[grade]<< student
+    @roster[grade]=[] 
+    #if roster doesn't have a grade key make an array for that grade
+     @roster[grade]<< student #add student to new grade key
   end
 end
-
+def grade 
+  @roster
+end
 end
