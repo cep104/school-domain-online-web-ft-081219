@@ -20,7 +20,8 @@ def grade(grade) #given a grade
 end
 def sort
   @roster.each do |grade, student|
-   new =student.sort
+   new = []
+   new = student.sort
      
   end
   new
