@@ -20,7 +20,7 @@ def grade(grade) #given a grade
 end
 def sort
   @roster.collect do |grade, student|
-    new_array << student.sort
+    student.sort
   end
 end
 end
