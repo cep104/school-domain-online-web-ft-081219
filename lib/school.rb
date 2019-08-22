@@ -19,8 +19,8 @@ def grade(grade) #given a grade
   @roster[grade] #reports the students in the grade
 end
 def sort
-  new_grades = {}
-  @roster.each do |grade, student|
+  new_grades = {} #create a new hash for sort
+  @roster.each do |grade, student| 
    new_grades[grade] = student.sort
      
   end
