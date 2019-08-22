@@ -21,7 +21,7 @@ end
 def sort
   new_grades = {}
   @roster.each do |grade, student|
-   new << student.sort
+   new_grades[grade] = student.sort
      
   end
   
