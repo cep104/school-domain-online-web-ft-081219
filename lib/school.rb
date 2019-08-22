@@ -24,6 +24,6 @@ def sort
    new_grades[grade] = student.sort
      
   end
-  
+  new_grades
 end
 end
