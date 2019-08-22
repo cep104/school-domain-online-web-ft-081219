@@ -15,7 +15,7 @@ def add_student(student,grade)
      @roster[grade]<< student #add student to new grade key
   end
 end
-def grade(@roster)
+def grade(roster)
   @roster
 end
 end
