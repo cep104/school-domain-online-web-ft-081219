@@ -21,7 +21,8 @@ end
 def sort
   new_grades = {} #create a new hash for sort
   @roster.each do |grade, student| 
-   new_grades[grade] = student.sort #new_grades hash with key of grade puts students sorted 
+   new_grades[grade] = student.sort 
+   #new_grades hash with key of grade puts students sorted 
      
   end
   new_grades
