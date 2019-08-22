@@ -24,6 +24,6 @@ def sort
    new << student.sort
      
   end
-  new
+  
 end
 end
