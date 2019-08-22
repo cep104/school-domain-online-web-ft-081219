@@ -19,6 +19,7 @@ def grade(grade) #given a grade
   @roster[grade] #reports the students in the grade
 end
 def sort
-  grade
+  @roster.collect do |grade, student|
+    student.sort
 end
 end
