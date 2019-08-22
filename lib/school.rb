@@ -21,6 +21,6 @@ end
 def sort
   @roster.collect do |grade, student|
     new_array << student.sort
-    new_array
+    
 end
 end
